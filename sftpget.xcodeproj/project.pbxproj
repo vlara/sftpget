@@ -26,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCB02B451B561D8A0072F37F /* sftpget-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sftpget-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCB02B461B561EAE0072F37F /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
 		FCE189B11B52F283007E6C7F /* sftpget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sftpget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE189B51B52F283007E6C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE189B61B52F283007E6C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		FCE189A81B52F283007E6C7F = {
 			isa = PBXGroup;
 			children = (
+				FCB02B461B561EAE0072F37F /* InterfaceBuilderKit.framework */,
 				FCE189B31B52F283007E6C7F /* sftpget */,
 				FCE189C91B52F284007E6C7F /* sftpgetTests */,
 				FCE189B21B52F283007E6C7F /* Products */,
@@ -77,6 +80,7 @@
 		FCE189B31B52F283007E6C7F /* sftpget */ = {
 			isa = PBXGroup;
 			children = (
+				FCB02B451B561D8A0072F37F /* sftpget-Bridging-Header.h */,
 				FCE189B61B52F283007E6C7F /* AppDelegate.swift */,
 				FCE189B81B52F283007E6C7F /* ViewController.swift */,
 				FCE189BD1B52F283007E6C7F /* Images.xcassets */,
@@ -332,9 +336,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = sftpget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sftpget/sftpget-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -343,9 +352,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = sftpget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sftpget/sftpget-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -404,6 +418,7 @@
 				FCE189D21B52F284007E6C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE189D31B52F284007E6C7F /* Build configuration list for PBXNativeTarget "sftpgetTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +427,7 @@
 				FCE189D51B52F284007E6C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

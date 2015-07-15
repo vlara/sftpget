@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8EEBCC47-EF9B-458B-9611-238707B097F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sftpget</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D9F57DFE920C501766E7F3DE135A0A7C56706E33</key>
+		<string>github.com:vlara/sftpget.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sftpget.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D9F57DFE920C501766E7F3DE135A0A7C56706E33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:vlara/sftpget.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9F57DFE920C501766E7F3DE135A0A7C56706E33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9F57DFE920C501766E7F3DE135A0A7C56706E33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sftpget</string>
+		</dict>
+	</array>
+</dict>
+</plist>
